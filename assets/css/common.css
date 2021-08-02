@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+.container {
+  padding: 0 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.for-headings {
+  font-size: 2rem;
+  font-weight: 700;
+  color:#252B42;
+}
+.for-paragraphs{
+  font-size: 1.5rem;
+  color:#737373;
+}
+
+@media screen and (min-width:700px) {
+  :root {
+    font-size: 18px;
+  }
+}

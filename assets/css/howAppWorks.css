@@ -1,0 +1,84 @@
+.how-app-works-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.how-app-works {
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+}
+.how-app-works-image-wrapper {
+  max-width: 300px;
+  max-height: 500px;
+}
+.how-app-works-img{
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.123);
+}
+.how-app-works-heading,
+.how-app-works-img {
+  margin: 2rem 0 3rem 0;
+}
+
+.how-app-works-text {
+  margin: 2rem 2rem;
+}
+
+.how-app-works-heading{
+  position: relative;
+}
+.how-app-works-heading::before {
+  content: '';
+  font-size: 1rem;
+  color:rgba(250, 74, 12, 1);
+  position: absolute;
+  left: 0;
+  top: -2rem;
+  font-weight: 700;
+}
+.first-h2::before {
+  content: 'Create an account';
+}
+.second-h2::before {
+  content: 'Explore varieties';
+}
+@media screen and (max-width:999px) {
+  .how-app-works-heading::before{
+    left: 0;
+    right: 0;
+  }
+  .second-h2::before {
+    content: 'Explore while shopping';
+  }
+}
+
+@media screen and (min-width:650px) {
+  hr {
+    display: none;
+  }
+  .how-app-works {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .how-app-works {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    text-align: left;
+  }
+  .login-sec .how-app-works-img-wrapper {
+    order: -1;
+  }
+  .login-sec .how-app-works-content-wrapper{
+    margin-left: 8rem;
+  }
+  .meals-sec .how-app-works-content-wrapper {
+    margin-right: 8rem;
+  }
+  .how-app-works-text {
+    margin: 2rem 0;
+  }
+}
