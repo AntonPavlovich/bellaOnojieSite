@@ -1,6 +1,6 @@
 .download-sec {
   background-color:rgba(37, 43, 66, 1);
-  padding: 4rem 1rem;
+  padding: 4rem 1.5rem;
 }
 .download-heading,
 .download-btn
@@ -31,6 +31,11 @@
 }
 .orange-btn {
   border: none;
+}
+@media screen and (max-width:340px) {
+  .download-btn-wrapper{
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width:600px) {

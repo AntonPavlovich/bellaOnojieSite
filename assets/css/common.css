@@ -8,7 +8,6 @@ a {
   outline: none;
 }
 .container {
-  padding: 0 20px;
   text-align: center;
   font-family: sans-serif;
 }
@@ -16,6 +15,8 @@ a {
 .for-headings {
   font-size: 2rem;
   font-weight: 700;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   color:#252B42;
 }
 .for-paragraphs{
