@@ -11,9 +11,7 @@
   max-width: 300px;
   max-height: 500px;
 }
-.how-app-works-img{
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.123);
-}
+
 .how-app-works-heading,
 .how-app-works-img {
   margin: 2rem 0 3rem 0;
