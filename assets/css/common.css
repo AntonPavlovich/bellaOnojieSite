@@ -23,6 +23,11 @@ a {
   font-size: 1.5rem;
   color:#737373;
 }
+.overflow-defence {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 @media screen and (min-width:700px) {
   :root {
