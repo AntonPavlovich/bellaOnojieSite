@@ -30,6 +30,8 @@ a {
   max-width: 250px;
 }
 
+
+
 @media screen and (min-width:700px) {
   :root {
     font-size: 18px;

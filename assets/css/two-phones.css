@@ -10,9 +10,14 @@
   min-width: 200px;
 }
 
+
 .del-food-img{
   margin-left: -2rem;
   margin-top:3rem;
+  z-index: 1;
+}
+.food-for-img{
+  z-index: 2;
 }
 @media screen and (max-width:380px){
   .two-phones {
@@ -21,11 +26,16 @@
   .two-phones-wrapper {
     margin: 0;
   }
-  
+}
+
+@media screen and (max-width:500px){
+  .two-phones-pic{
+    width: 220px;
+  }
 }
 @media screen and (min-width:600px) {
   .two-phones{
-    margin-top: -6rem;
+    margin-top: -7rem;
     border-bottom: 2px solid rgba(128, 128, 128, 0.534);
   }
 }
